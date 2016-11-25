@@ -6,13 +6,13 @@
       color: $color-estrella;
       width: 0px;
       height: 0px;
-      border-right:  $tamanio-estrella solid transparent;
-      border-bottom: $tamanio-estrella*0.7  solid $color-estrella;
-      border-left:   $tamanio-estrella solid transparent;
-      -moz-transform:    rotate(35deg);
+      border-right: $tamanio-estrella solid transparent;
+      border-bottom: $tamanio-estrella*0.7 solid $color-estrella;
+      border-left: $tamanio-estrella solid transparent;
+      -moz-transform: rotate(35deg);
       -webkit-transform: rotate(35deg);
-      -ms-transform:     rotate(35deg);
-      -o-transform:      rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg);
    }
    .star-five:before {
       border-bottom: $tamanio-estrella*0.8 solid $color-estrella;
@@ -26,10 +26,9 @@
       display: block;
       content: '';
       -webkit-transform: rotate(-35deg);
-      -moz-transform:    rotate(-35deg);
-      -ms-transform:     rotate(-35deg);
-      -o-transform:      rotate(-35deg);
-
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg);
    }
    .star-five:after {
       position: absolute;
@@ -43,10 +42,9 @@
       border-bottom: $tamanio-estrella*0.7 solid $color-estrella;
       border-left: $tamanio-estrella solid transparent;
       -webkit-transform: rotate(-70deg);
-      -moz-transform:    rotate(-70deg);
-      -ms-transform:     rotate(-70deg);
-      -o-transform:      rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
       content: '';
    }
-
 }
